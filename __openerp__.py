@@ -30,5 +30,7 @@
         'reports/purchase_order.xml',
         'reports/purchase_quotation.xml',
         'views/product_template.xml',
+        'views/stock_move.xml',
+        'views/stock_transfer_details_items.xml',
     ]
 }
