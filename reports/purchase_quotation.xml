@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<openerp>
+<odoo>
     <data>
         <template id="report_purchasequotation_document_viscosity" inherit_id="purchase.report_purchasequotation_document">
             <xpath expr="//table[@class='table table-condensed']//tbody//td[@class='text-right']" position="replace">
@@ -18,4 +18,4 @@
             </xpath>
         </template>
     </data>
-</openerp>
+</odoo>

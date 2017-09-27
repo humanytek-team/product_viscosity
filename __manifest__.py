@@ -20,17 +20,18 @@
 
 {
     'name': 'Product Viscosity',
-    'version': '8.0.1.0',
+    'version': '10.0.1.0',
     'author': 'Humanytek',
     'website': 'http://humanytek.com',
     'depends': [
         'purchase',
+        'stock',
     ],
     'data': [
         'reports/purchase_order.xml',
         'reports/purchase_quotation.xml',
         'views/product_template.xml',
         'views/stock_move.xml',
-        'views/stock_transfer_details_items.xml',
+        'views/stock_picking.xml',
     ]
 }
