@@ -22,7 +22,7 @@ class StopckPackOperation(models.Model):
     def _get_product_oum_qty_viscosity(self):
         for r in self:
             if r.viscosity > 0:
-                r.product_qty = r.viscosity*r.kg
+                r.qty_done = r.viscosity*r.kg
 
     @api.multi
     @api.depends('product_id')
