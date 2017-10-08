@@ -18,7 +18,21 @@
 #
 ##############################################################################
 
-from . import product_template
-from . import purchase_order_line
-from . import stock_move
-from . import stock_pack_operation
+{
+    'name': 'Product Viscosity',
+    'version': '10.0.1.0',
+    'author': 'Humanytek',
+    'website': 'http://humanytek.com',
+    'depends': [
+        'purchase',
+        'stock',
+    ],
+    'data': [
+        'reports/purchase_order.xml',
+        'reports/purchase_quotation.xml',
+        'views/product_template.xml',
+        'views/purchase.xml',
+        'views/stock_move.xml',
+        'views/stock_picking.xml',
+    ]
+}
